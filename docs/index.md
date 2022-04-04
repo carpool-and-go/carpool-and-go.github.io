@@ -1,7 +1,7 @@
 ## Welcome to Carpool and Go!
 
-Group Member Agreement
-<a href="https://docs.google.com/document/d/1YAd3LihnKsh5QRUVU11w1N1Rn5ffM7UGuOMRcv6_smM/edit?usp=sharing"/>
+<a href="https://docs.google.com/document/d/1YAd3LihnKsh5QRUVU11w1N1Rn5ffM7UGuOMRcv6_smM/edit?usp=sharing">Group Member Agreement</a>
+
 Project Goals
 
 
