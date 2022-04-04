@@ -1,3 +1,12 @@
 ## Welcome to Carpool and Go!
 
-This is a test index.md that we will change later to implement details about our homepage.
+#Group Member Agreement
+
+#Project Goals
+
+
+#What the system should eventually Provide
+
+
+
+#Screenshots of Mockup Pages We plan on using for final project
