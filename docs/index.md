@@ -1,4 +1,4 @@
-# Welcome to Carpool and Go!
+## Welcome to Carpool and Go!
 
 ## Table of contents
 * [Group Member Agreement](#group-member-agreement)
@@ -15,7 +15,6 @@ For more information on the creation and the distribution of work, to contribute
 
 ##Overview
 Carpool and Go! is a web application project mockup that aims to provide a communal network for University of Hawaii at Manoa, allowing for drivers to offer rides and for riders to be able to search for rides in their area. This application is created by ICS software engineering students through the means of:
-* 
 
 ##Project Goals
 
