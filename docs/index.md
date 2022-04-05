@@ -1,6 +1,6 @@
-## Welcome to Carpool and Go!
+# Welcome to Carpool and Go!
 
-##Table of contents
+#Table of contents
 * [Group Member Agreement](#group-member-agreement)
 * [Overview](#overview)
 * [Project Goals](#project-goals)
