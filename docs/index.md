@@ -84,7 +84,7 @@ Milestones are important! This project undergoes the developmental process pract
 ### M1 Milestone
 Our M1 Milestone was essentially developing the basic skeleton of the website, implementing collections we will be using in the project, and correcting the routing of the bowfolios template to match our website. We had a total of 13 issues for this Milestone, and the project board can be found [here.](https://github.com/carpool-and-go/carpool-and-go/projects/1) 
 
-![](../images/m1project.png)
+![](https://raw.githubusercontent.com/carpool-and-go/carpool-and-go.github.io/main/images/m1project.png)
 
 Issues:
 * Create Users Collection - Kenji
