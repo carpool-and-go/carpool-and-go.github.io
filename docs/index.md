@@ -35,7 +35,7 @@ This section will show how the website looks like during each stage of the devel
 ### Landing Page
 The landing page will contain a general description of what Carpool and Go aims to accomplish:
 
-![](/images/LandingPage.PNG)
+![](https://media.discordapp.net/attachments/251791549866835968/961702566247424020/LandingPage.PNG?width=1347&height=671)
 
 ### General Home Page
 The general home page will look similar to digits, in that it contains three columns that describe the specific functions of the site:
