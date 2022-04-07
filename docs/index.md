@@ -11,7 +11,7 @@
 * [Deployment](#deployment)
 
 ## Group Member Agreement
-This web application is made in cooperation with Kenji Sanehira, Cory Parker, Robin Dumlao, Michael Ito, Johanan Leoncio, and Kai Sequeira.
+This web application is made in cooperation with [Kenji Sanehira](https://sanehirakenji.github.io/), [Cory Parker](https://hnlcory.github.io/), [Robin Dumlao](https://robindum.github.io/ ), [Michael Ito](https://michaelbito.github.io/), [Johanan Leoncio](https://johanancs.github.io/ ), and [Kai Sequeira](https://kaialii.github.io/).
 
 For more information on the creation and the distribution of work, to contribute as a team, you can check [here.](https://docs.google.com/document/d/1YAd3LihnKsh5QRUVU11w1N1Rn5ffM7UGuOMRcv6_smM/edit?usp=sharing)
 
