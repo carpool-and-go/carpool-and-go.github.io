@@ -89,6 +89,7 @@ Our M1 Milestone was essentially developing the basic skeleton of the website, i
 Issues:
 * Create Users Collection - Kenji
 * Create Locations Collection - Kenji
+* Create Profile and Edit Profile Pages - Kenji
 * Create .jsx files of all Pages - Michael
 * Create general presentation for Thursday - Michael
 * Route App.jsx to the correct Pages - Robin
