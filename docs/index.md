@@ -63,13 +63,13 @@ This is similar to many of the edit forms we have developed for this class, an e
 The Drivers/Riders Pages will be nearly identical in structure, but will differ in the data they display. The Drivers page will show exclusively drivers whereas the riders will only show riders. The top of the page will contain a filter container that allows the user to sort by location.
 This is similar to the filter feature shown in the bowfolios application, an example of which is shown here:
 
-![](../images/Filer.PNG)
+![](../images/Filler.PNG)
 
 ### "Fast Ride" Feed
 The "Fast Ride" feed page will be a feed that consists of all of the requested Fast rides sent by the Fast Ride Form. The feed will display the user's Profile Picture, their first and last name, and then the rest of the information gathered from the fast rides form.
 This is similar to the digits notes feed shown below:
 
-![](../images/Fast Ride Form.PNG)
+![](../images/FastRideForm.PNG)
 
 ### "Fast Ride" Form
 The "Fast Ride" form page will be a form that allows a user to request a ride to a specific location at a particular time of day. It will send data to the "Fast Ride" feed.
