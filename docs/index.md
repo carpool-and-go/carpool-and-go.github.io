@@ -40,6 +40,7 @@ The general home page will look similar to digits, in that it contains three col
 * Drivers
 * Riders
 * FastRide
+* 
 This can be implemented similarly to the digits home page, which is depicted below:
 
 ### User Profile Page
