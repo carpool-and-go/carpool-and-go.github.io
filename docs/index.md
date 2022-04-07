@@ -8,6 +8,7 @@
 * [What the system Should Eventually Provide](#what-the-system-should-eventually-provide)
 * [Development Mockup Pages](#development-mockup-pages)
 * [Development History](#development-history)
+* [Deployment](#deployment)
 
 ## Group Member Agreement
 This web application is made in cooperation with Kenji Sanehira, Cory Parker, Robin Dumlao, Michael Ito, Johanan Leoncio, and Kai Sequeira.
@@ -15,7 +16,7 @@ This web application is made in cooperation with Kenji Sanehira, Cory Parker, Ro
 For more information on the creation and the distribution of work, to contribute as a team, you can check [here.](https://docs.google.com/document/d/1YAd3LihnKsh5QRUVU11w1N1Rn5ffM7UGuOMRcv6_smM/edit?usp=sharing)
 
 ## Overview
-Carpool and Go! is a web application project mockup that aims to provide a communal network for University of Hawaii at Manoa, allowing for drivers to offer rides and for riders to be able to search for rides in their area. This application is created by ICS software engineering students through the means of:
+Carpool and Go! is a web application project mockup that aims to provide a communal network for University of Hawaii at Manoa, allowing for drivers to offer rides and for riders to be able to search for rides in their area. Click [here](https://github.com/carpool-and-go) to see the github organization for this project.
 
 ## Project Goals
 Our goal with this project is to take in what we have learned over the course of the semester to create a functioning meteor application that reflects the teachings as well as the creative freedoms we get to choose while creating this project. By working together in a team environment, we aim to gain experience as well as further our practice in web design. Also, by creating a mockup for a service in an attempt to combat a real world problem, we hope to be able to translate this problem solving into other scenarios in real world applications.
@@ -79,3 +80,26 @@ This is similar to the digits notes form shown below:
 
 ## Development History
 Milestones are important! This project undergoes the developmental process practices in order to create a fully functioning meteor proof-of-concept prototype. This section is dedicated to keeping track of milestone goals and how we managed to achieve them.
+
+### M1 Milestone
+Our M1 Milestone was essentially developing the basic skeleton of the website, implementing collections we will be using in the project, and correcting the routing of the bowfolios template to match our website. We had a total of 13 issues for this Milestone, and the project board can be found [here.](https://github.com/carpool-and-go/carpool-and-go/projects/1) 
+
+Issues:
+* Create Users Collection - Kenji
+* Create Locations Collection - Kenji
+* Create .jsx files of all Pages - Michael
+* Create general presentation for Thursday - Michael
+* Route App.jsx to the correct Pages - Robin
+* Create the general home page - Robin
+* Edit the current Navbar and Footer Components - Cory
+* Edit the Landing Page and Signin/Signup pages - Cory
+* Create the Driver's Page - Johanan
+* Create the Rider's Page - Johanan
+* Create the FastRide Feed Page - Kai
+* Create the FastRide Form Page - Kai
+
+### M2 Milestone
+This section is dedicated to our second milestone, which will be discussed later on.
+
+## Deployment
+This section will contain a link to our deployed application running through DigitalOcean once we get to that point in the project.
