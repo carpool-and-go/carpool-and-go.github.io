@@ -36,7 +36,7 @@ This section will show how the website looks like during each stage of the devel
 ### Landing Page
 The landing page will contain a general description of what Carpool and Go aims to accomplish:
 
-<img src="../images/LandingPage.PNG" alt="https://media.discordapp.net/attachments/251791549866835968/961702566247424020/LandingPage.PNG?width=910&height=453"/>
+![](https://media.discordapp.net/attachments/251791549866835968/961702566247424020/LandingPage.PNG?width=910&height=453)
 
 ### General Home Page
 The general home page will look similar to digits, in that it contains three columns that describe the specific functions of the site:
@@ -45,38 +45,37 @@ The general home page will look similar to digits, in that it contains three col
 * FastRide
 
 This can be implemented similarly to the digits home page, which is depicted below:
-
-<img src="../images/Home.PNG" alt="https://media.discordapp.net/attachments/251791549866835968/961703096839467028/Home.PNG?width=910&height=248"/>
+![](https://media.discordapp.net/attachments/251791549866835968/961703096839467028/Home.PNG?width=910&height=248)
 
 ### User Profile Page
 The user profile page will be a large card that contains all of the fields required of the user when they log in. At the bottom of this card will be an edit section, which the user can click on that will take them to the "User Profile Edit Form".
 This can be implemented similarly to the digits contact card, which is depicted below:
 
-<img src="../images/UserProf.PNG" alt="https://user-images.githubusercontent.com/97561440/162290537-35f2fccc-89bb-47ba-8768-5e52556ec8df.png">
+![](https://user-images.githubusercontent.com/97561440/162290537-35f2fccc-89bb-47ba-8768-5e52556ec8df.png)
 
 ### User Profile Edit Form
 The user profile edit form will be a form that contains all of the fields required of the user when they log in. It will change only the data of the current user logged in, and upon submitting, will change the users data in the user collection and the users data in the User Profile Page.
 This is similar to many of the edit forms we have developed for this class, an example of which is depicted below:
 
-<img src="../images/EditProf.PNG" alt='https://user-images.githubusercontent.com/97561440/162290686-4d7bf08e-099d-4dbc-8b8f-a4e8153a42e6.png'>
+![](https://cdn.discordapp.com/attachments/959715872673521695/964277514291802122/EditProf.PNG)
 
 ### Drivers/Riders Page
 The Drivers/Riders Pages will be nearly identical in structure, but will differ in the data they display. The Drivers page will show exclusively drivers whereas the riders will only show riders. The top of the page will contain a filter container that allows the user to sort by location.
 This is similar to the filter feature shown in the bowfolios application, an example of which is shown here:
 
-<img src="../images/Filter.PNG" alt="https://user-images.githubusercontent.com/97561440/162290729-0bfb0720-0cf6-493f-a3b8-e3aba47cb5a9.png">
+![](https://cdn.discordapp.com/attachments/959715872673521695/964277514501513226/Filter.PNG)
 
 ### "Fast Ride" Feed
 The "Fast Ride" feed page will be a feed that consists of all of the requested Fast rides sent by the Fast Ride Form. The feed will display the user's Profile Picture, their first and last name, and then the rest of the information gathered from the fast rides form.
 This is similar to the digits notes feed shown below:
 
-<img src="../images/FastRideForm.PNG" alt='https://cdn.discordapp.com/attachments/251791549866835968/961703096411631616/FastRideForm.PNG'>
+![](https://cdn.discordapp.com/attachments/251791549866835968/961703096411631616/FastRideForm.PNG)
 
 ### "Fast Ride" Form
 The "Fast Ride" form page will be a form that allows a user to request a ride to a specific location at a particular time of day. It will send data to the "Fast Ride" feed.
 This is similar to the digits notes form shown below:
 
-<img src="../images/FastRideFeed.PNG" alt='https://cdn.discordapp.com/attachments/251791549866835968/961703096159977552/FastRideFeed.PNG'>
+![](https://cdn.discordapp.com/attachments/251791549866835968/961703096159977552/FastRideFeed.PNG)
 
 ## Development History
 Milestones are important! This project undergoes the developmental process practices in order to create a fully functioning meteor proof-of-concept prototype. This section is dedicated to keeping track of milestone goals and how we managed to achieve them.
@@ -84,7 +83,7 @@ Milestones are important! This project undergoes the developmental process pract
 ### M1 Milestone
 Our M1 Milestone was essentially developing the basic skeleton of the website, implementing collections we will be using in the project, and correcting the routing of the bowfolios template to match our website. We had a total of 13 issues for this Milestone, and the project board can be found [here.](https://github.com/carpool-and-go/carpool-and-go/projects/1) 
 
-<img src="../images/m1project.png" alt='https://cdn.discordapp.com/attachments/959715872673521695/964274772005507142/m1project.png'>
+![](https://cdn.discordapp.com/attachments/959715872673521695/964274772005507142/m1project.png)
 
 ### Issues:
 * Create Users Collection - Kenji
@@ -102,13 +101,13 @@ Our M1 Milestone was essentially developing the basic skeleton of the website, i
 * Create the FastRide Form Page - Kai
 
 ## Update April 14th:
-<img src="../images/m1.png" alt='https://media.discordapp.net/attachments/959715872673521695/964274144843821127/m1.png?width=1217&height=994'>
+![](https://media.discordapp.net/attachments/959715872673521695/964274144843821127/m1.png?width=1217&height=994)
 
 ### M2 Milestone
 Now that the mockup of the pages and the skeleton of the website is complete, it is now time to focus on functionality and making things work together. The goal of this milestone is to have a working site with no broken links. Check out our [M2 project board.](https://github.com/carpool-and-go/carpool-and-go/projects/3)
 
 Starting Date, April 15th:
-<img src="../images/m2start.png" alt="https://cdn.discordapp.com/attachments/959715872673521695/964276099162980382/m2start.png">
+![](https://cdn.discordapp.com/attachments/959715872673521695/964276099162980382/m2start.png)
 
 ## Deployment
 The following is a link to our deployed application running on Digital Ocean:
