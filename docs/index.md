@@ -84,9 +84,9 @@ Milestones are important! This project undergoes the developmental process pract
 ### M1 Milestone
 Our M1 Milestone was essentially developing the basic skeleton of the website, implementing collections we will be using in the project, and correcting the routing of the bowfolios template to match our website. We had a total of 13 issues for this Milestone, and the project board can be found [here.](https://github.com/carpool-and-go/carpool-and-go/projects/1) 
 
-<img src="../images/m1project.png" alt='https://raw.githubusercontent.com/carpool-and-go/carpool-and-go.github.io/main/images/m1project.png'>
+<img src="../images/m1project.png" alt='https://cdn.discordapp.com/attachments/959715872673521695/964274772005507142/m1project.png'>
 
-Issues:
+### Issues:
 * Create Users Collection - Kenji
 * Create Locations Collection - Kenji
 * Create Profile and Edit Profile Pages - Kenji
@@ -101,8 +101,14 @@ Issues:
 * Create the FastRide Feed Page - Kai
 * Create the FastRide Form Page - Kai
 
+## Update April 14th:
+<img src="../images/m1.png" alt='https://media.discordapp.net/attachments/959715872673521695/964274144843821127/m1.png?width=1217&height=994'>
+
 ### M2 Milestone
-This section is dedicated to our second milestone, which will be discussed later on.
+Now that the mockup of the pages and the skeleton of the website is complete, it is now time to focus on functionality and making things work together. The goal of this milestone is to have a working site with no broken links. Check out our [M2 project board.](https://github.com/carpool-and-go/carpool-and-go/projects/3)
+
+Starting Date, April 15th:
+<img src="../images/m2start.png" alt="https://cdn.discordapp.com/attachments/959715872673521695/964276099162980382/m2start.png">
 
 ## Deployment
 The following is a link to our deployed application running on Digital Ocean:
