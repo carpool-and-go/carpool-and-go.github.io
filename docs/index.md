@@ -105,5 +105,5 @@ Issues:
 This section is dedicated to our second milestone, which will be discussed later on.
 
 ## Deployment
-This section will contain a link to our deployed application running through DigitalOcean once we get to that point in the project.
-
+The following is a link to our deployed application running on Digital Ocean:
+Click [here.](http://167.71.66.48/)
