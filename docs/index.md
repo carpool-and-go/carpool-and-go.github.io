@@ -46,7 +46,7 @@ The general home page will look similar to digits, in that it contains three col
 
 This can be implemented similarly to the digits home page, which is depicted below:
 
-<img src="../images/Home.png" alt="https://media.discordapp.net/attachments/251791549866835968/961703096839467028/Home.PNG?width=910&height=248"/>
+<img src="../images/Home.PNG" alt="https://media.discordapp.net/attachments/251791549866835968/961703096839467028/Home.PNG?width=910&height=248"/>
 
 ### User Profile Page
 The user profile page will be a large card that contains all of the fields required of the user when they log in. At the bottom of this card will be an edit section, which the user can click on that will take them to the "User Profile Edit Form".
