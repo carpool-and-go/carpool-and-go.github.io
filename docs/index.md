@@ -44,26 +44,23 @@ The general home page will look similar to digits, in that it contains three col
 * Riders
 * FastRide
 
-This can be implemented similarly to the digits home page, which is depicted below:
-![](https://media.discordapp.net/attachments/251791549866835968/961703096839467028/Home.PNG?width=910&height=248)
+![](https://user-images.githubusercontent.com/97719124/163473129-15cf6039-5b62-4e31-adb3-be3354dcbba3.png)
+![](https://user-images.githubusercontent.com/97719124/163473220-0e9e8f30-da0a-42ee-a853-38ec2b91b27a.png)
 
 ### User Profile Page
 The user profile page will be a large card that contains all of the fields required of the user when they log in. At the bottom of this card will be an edit section, which the user can click on that will take them to the "User Profile Edit Form".
-This can be implemented similarly to the digits contact card, which is depicted below:
 
-![](https://user-images.githubusercontent.com/97561440/162290537-35f2fccc-89bb-47ba-8768-5e52556ec8df.png)
+![](https://user-images.githubusercontent.com/54416383/163450377-c63fbeb6-682d-4819-8ef5-32c887b6073c.png)
 
 ### User Profile Edit Form
 The user profile edit form will be a form that contains all of the fields required of the user when they log in. It will change only the data of the current user logged in, and upon submitting, will change the users data in the user collection and the users data in the User Profile Page.
-This is similar to many of the edit forms we have developed for this class, an example of which is depicted below:
 
-![](https://cdn.discordapp.com/attachments/959715872673521695/964277514291802122/EditProf.PNG)
+![](https://user-images.githubusercontent.com/98077871/163379749-84f6d5aa-b80c-4c54-8258-80ae5fcec245.png)
 
 ### Drivers/Riders Page
 The Drivers/Riders Pages will be nearly identical in structure, but will differ in the data they display. The Drivers page will show exclusively drivers whereas the riders will only show riders. The top of the page will contain a filter container that allows the user to sort by location.
-This is similar to the filter feature shown in the bowfolios application, an example of which is shown here:
 
-![](https://cdn.discordapp.com/attachments/959715872673521695/964277514501513226/Filter.PNG)
+![](https://user-images.githubusercontent.com/97719124/163475875-6688ac19-6721-47c5-b803-43dbb8268751.png)
 
 ### "Fast Ride" Feed
 The "Fast Ride" feed page will be a feed that consists of all of the requested Fast rides sent by the Fast Ride Form. The feed will display the user's Profile Picture, their first and last name, and then the rest of the information gathered from the fast rides form.
@@ -75,7 +72,7 @@ This is similar to the digits notes feed shown below:
 The "Fast Ride" form page will be a form that allows a user to request a ride to a specific location at a particular time of day. It will send data to the "Fast Ride" feed.
 This is similar to the digits notes form shown below:
 
-![](https://cdn.discordapp.com/attachments/251791549866835968/961703096159977552/FastRideFeed.PNG)
+![](https://user-images.githubusercontent.com/31085175/163355483-6dc26354-d852-4809-94ad-cb8f06085dee.png)
 
 ## Development History
 Milestones are important! This project undergoes the developmental process practices in order to create a fully functioning meteor proof-of-concept prototype. This section is dedicated to keeping track of milestone goals and how we managed to achieve them.
@@ -83,25 +80,24 @@ Milestones are important! This project undergoes the developmental process pract
 ### M1 Milestone
 Our M1 Milestone was essentially developing the basic skeleton of the website, implementing collections we will be using in the project, and correcting the routing of the bowfolios template to match our website. We had a total of 13 issues for this Milestone, and the project board can be found [here.](https://github.com/carpool-and-go/carpool-and-go/projects/1) 
 
-![](https://cdn.discordapp.com/attachments/959715872673521695/964274772005507142/m1project.png)
+![](https://cdn.discordapp.com/attachments/930054006812844065/964423632124256266/Final.JPG)
 
-### Issues:
-* Create Users Collection - Kenji
-* Create Locations Collection - Kenji
-* Create Profile and Edit Profile Pages - Kenji
-* Create .jsx files of all Pages - Michael
-* Create general presentation for Thursday - Michael
-* Route App.jsx to the correct Pages - Robin
-* Create the general home page - Robin
-* Edit the current Navbar and Footer Components - Cory
-* Edit the Landing Page and Signin/Signup pages - Cory
-* Create the Driver's Page - Johanan
-* Create the Rider's Page - Johanan
-* Create the FastRide Feed Page - Kai
-* Create the FastRide Form Page - Kai
-
-## Update April 14th:
-![](https://media.discordapp.net/attachments/959715872673521695/964274144843821127/m1.png?width=1217&height=994)
+### Finished Issues:
+* Implement the Profiles Collection
+* Implement the Locations Collection
+* Create General Presentation
+* Edit Navbar and Footer
+* Clean up Sign in, Sign Up, and Landing Page
+* Implement Riders List Page
+* Implement Drivers List Page
+* Implement the User Profile
+* General Home Page
+* App.jsx Routing
+* Implement Edit Profile Page
+* Successful Sign-in Redirect
+* Implement Fast Ride Form Page
+* Deploy Carpool and Go to Digital Ocean
+* Set up domain name and https for our final project
 
 ### M2 Milestone
 Now that the mockup of the pages and the skeleton of the website is complete, it is now time to focus on functionality and making things work together. The goal of this milestone is to have a working site with no broken links. Check out our [M2 project board.](https://github.com/carpool-and-go/carpool-and-go/projects/3)
