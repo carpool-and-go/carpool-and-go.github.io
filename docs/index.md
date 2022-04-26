@@ -4,9 +4,9 @@
 * [Group Member Agreement](#group-member-agreement)
 * [Overview](#overview)
 * [Project Goals](#project-goals)
-* [Touring the Interface](#touring-the-interface)
 * [What the system Should Eventually Provide](#what-the-system-should-eventually-provide)
-* [Development Mockup Pages](#development-mockup-pages)
+* [User Guide](#user-guide)
+* [Developer Guide](#developer-guide)
 * [Development History](#development-history)
 * [Deployment](#deployment)
 
@@ -21,12 +21,6 @@ Carpool and Go! is a web application project mockup that aims to provide a commu
 ## Project Goals
 Our goal with this project is to take in what we have learned over the course of the semester to create a functioning meteor application that reflects the teachings as well as the creative freedoms we get to choose while creating this project. By working together in a team environment, we aim to gain experience as well as further our practice in web design. Also, by creating a mockup for a service in an attempt to combat a real world problem, we hope to be able to translate this problem solving into other scenarios in real world applications.
 
-## Touring the Interface
-As we progress and further develop the website application, we will be showing the different aspects of our website and pages here. This is where the final product and how to navigate through the website will go. Currently there is nothing yet, but stay tuned!
-
-    Pages (WIP) //this will be describing what users see when they first enter the
-    website, how to create an account, what can they do after, etc.
-
 ## What the System Should Eventually Provide
 What this system should eventually provide is a website service that allows University of Hawaii at Manoa students and staff the ability to have access to get to school with having less cars needed to traverse the roads. Users who log in can either look to offer rides, or search for possible drivers that they can catch a ride with to campus. By offering this service, we hope to do our part to help against the rising gas prices and heavy traffic near the University.
 
@@ -39,28 +33,36 @@ The landing page will contain a general description of what Carpool and Go aims 
 ![](https://media.discordapp.net/attachments/251791549866835968/961702566247424020/LandingPage.PNG?width=910&height=453)
 
 ### General Home Page
-The general home page will look similar to digits, in that it contains three columns that describe the specific functions of the site:
-* Drivers
-* Riders
-* FastRide
-
-![](https://user-images.githubusercontent.com/97719124/163473129-15cf6039-5b62-4e31-adb3-be3354dcbba3.png)
-![](https://user-images.githubusercontent.com/97719124/163473220-0e9e8f30-da0a-42ee-a853-38ec2b91b27a.png)
+The general home page after logging in will present the user with a number of options including viewing drivers/riders, editing their profile, and accessing the fast ride feed.
+![](https://cdn.discordapp.com/attachments/959715872673521695/968625542096117770/Home1.PNG)
+![](https://cdn.discordapp.com/attachments/959715872673521695/968625542494564352/Home2.PNG)
 
 ### User Profile Page
-The user profile page will be a large card that contains all of the fields required of the user when they log in. At the bottom of this card will be an edit section, which the user can click on that will take them to the "User Profile Edit Form".
+The user profile page displays the User in question's profile as well as their role, location, profile picture, arrive and leave time, contact information, and their rating. If the profile is the current logged in user's profile, there will be an "edit my profile" link that takes them to their respective edit my profile.
 
-![](https://user-images.githubusercontent.com/54416383/163450377-c63fbeb6-682d-4819-8ef5-32c887b6073c.png)
+![](https://media.discordapp.net/attachments/959715872673521695/968625542834311189/UserProf1.PNG)
 
-### User Profile Edit Form
-The user profile edit form will be a form that contains all of the fields required of the user when they log in. It will change only the data of the current user logged in, and upon submitting, will change the users data in the user collection and the users data in the User Profile Page.
+If the user does not have a profile, they will be prompted to make one using the add profile page (See below).
 
-![](https://user-images.githubusercontent.com/98077871/163379749-84f6d5aa-b80c-4c54-8258-80ae5fcec245.png)
+![](https://cdn.discordapp.com/attachments/959715872673521695/968625569073873007/UserProf2.PNG)
+
+### Add/Edit profile page
+The Add/Edit profile page will be a form that contains all of the fields required of the user when they log in. It will change only the data of the current user logged in, and upon submitting, will change the users data in the user collection and the users data in the User Profile Page.
+
+![](https://media.discordapp.net/attachments/959715872673521695/968625568872562838/Edit_Prof.PNG?width=781&height=670)
+
+If the user does not have a profile, they will have to create their profile.
+
+![](https://media.discordapp.net/attachments/959715872673521695/968625569442975744/AddProf.PNG?width=819&height=670)
+
+If the user is not an admin or not a user in question, they will get a message saying "you do not have access to this profile".
+
+![](https://media.discordapp.net/attachments/959715872673521695/968625603425210408/No_Access.PNG?width=881&height=329)
 
 ### Drivers/Riders Page
-The Drivers/Riders Pages will be nearly identical in structure, but will differ in the data they display. The Drivers page will show exclusively drivers whereas the riders will only show riders. The top of the page will contain a filter container that allows the user to sort by location.
+The Drivers page will show exclusively drivers whereas the riders will only show riders. The top of the page will contain a filter container that allows the user to sort by location. These collections of drivers and riders will also display if the rider or driver is a highly rated profile or a lower rated profile based on the rating property.
 
-![](https://user-images.githubusercontent.com/97719124/163475875-6688ac19-6721-47c5-b803-43dbb8268751.png)
+![](https://media.discordapp.net/attachments/959715872673521695/968625603756576898/DriverPage.PNG?width=881&height=399)
 
 ### "Fast Ride" Feed
 The "Fast Ride" feed page will be a feed that consists of all of the requested Fast rides sent by the Fast Ride Form. The feed will display the user's Profile Picture, their first and last name, and then the rest of the information gathered from the fast rides form.
@@ -69,10 +71,14 @@ This is similar to the digits notes feed shown below:
 ![](https://cdn.discordapp.com/attachments/251791549866835968/961703096411631616/FastRideForm.PNG)
 
 ### "Fast Ride" Form
-The "Fast Ride" form page will be a form that allows a user to request a ride to a specific location at a particular time of day. It will send data to the "Fast Ride" feed.
+The "Fast Ride" form page is a form that allows a user to request a ride to a specific location at a particular time of day. It will send data to the "Fast Ride" feed.
 This is similar to the digits notes form shown below:
 
-![](https://user-images.githubusercontent.com/31085175/163355483-6dc26354-d852-4809-94ad-cb8f06085dee.png)
+![](https://media.discordapp.net/attachments/959715872673521695/968625604180205578/FastRideForm.PNG?width=881&height=336)
+
+### Admin Page
+The admin page is a page that is similar to the drivers/riders page in that it displays the profiles based on their locations (filtered by a small filter container), however each profile also has an edit profile button that allows an admin to edit their profile. Later down the line, a "delete profile" button will be added.
+![](https://media.discordapp.net/attachments/959715872673521695/968625605149081690/AdminPage.PNG?width=881&height=335)
 
 ## Developer Guide
 
@@ -167,4 +173,4 @@ Current Project board:
 
 ## Deployment
 The following is a link to our deployed application running on Digital Ocean:
-Click [here.](http://167.71.66.48/)
+Click [here.](https://uh-carpool-and-go.xyz/#/)
