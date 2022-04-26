@@ -132,12 +132,13 @@ Our M1 Milestone was essentially developing the basic skeleton of the website, i
 * Implement Fast Ride Form Page
 * Deploy Carpool and Go to Digital Ocean
 * Set up domain name and https for our final project
+* Fixed showing user location in edit page
 
 ### M2 Milestone
 Now that the mockup of the pages and the skeleton of the website is complete, it is now time to focus on functionality and making things work together. The goal of this milestone is to have a working site with no broken links. Check out our [M2 project board.](https://github.com/carpool-and-go/carpool-and-go/projects/3)
 
 Finished Project Board:
--- INSERT FINISHED M2 IMAGE HERE --
+![](https://cdn.discordapp.com/attachments/959715872673521695/968619832088092682/M2_board.png)
 
 ### Finished Issues:
 * Fixed Image Proportions
@@ -162,7 +163,7 @@ Finished Project Board:
 Now that we have the general features of the website completed. Finish off the site by fixing minor UI bugs, implementing the sites "secret sauce", and essentially complete the project as a whole. Check out our current [M3 project board.](https://github.com/carpool-and-go/carpool-and-go/projects/4)
 
 Current Project board:
--- INSERT HERE --
+![](https://cdn.discordapp.com/attachments/959715872673521695/968619574826262558/unknown.png)
 
 ## Deployment
 The following is a link to our deployed application running on Digital Ocean:
