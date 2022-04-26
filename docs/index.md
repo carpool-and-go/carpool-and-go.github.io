@@ -30,8 +30,8 @@ As we progress and further develop the website application, we will be showing t
 ## What the System Should Eventually Provide
 What this system should eventually provide is a website service that allows University of Hawaii at Manoa students and staff the ability to have access to get to school with having less cars needed to traverse the roads. Users who log in can either look to offer rides, or search for possible drivers that they can catch a ride with to campus. By offering this service, we hope to do our part to help against the rising gas prices and heavy traffic near the University.
 
-## Development Mockup Pages
-This section will show how the website looks like during each stage of the development. Since it is very early in the stages, some of the mockups simply show structure based on other well known meteor projects to show what our website pages will eventually look like. Different from [touring the interface,](#touring-the-interface) this section will show the changes of these website pages over time, rather than the end result.
+## User Guide
+This section serves to guide the user through the currently implemented features of Carpool and Go. After reading through it, the user should have a general idea of how the site works and how to use it to the best of their ability.
 
 ### Landing Page
 The landing page will contain a general description of what Carpool and Go aims to accomplish:
@@ -74,6 +74,9 @@ This is similar to the digits notes form shown below:
 
 ![](https://user-images.githubusercontent.com/31085175/163355483-6dc26354-d852-4809-94ad-cb8f06085dee.png)
 
+## Developer Guide
+--Insert stuff here--
+
 ## Development History
 Milestones are important! This project undergoes the developmental process practices in order to create a fully functioning meteor proof-of-concept prototype. This section is dedicated to keeping track of milestone goals and how we managed to achieve them.
 
@@ -102,8 +105,33 @@ Our M1 Milestone was essentially developing the basic skeleton of the website, i
 ### M2 Milestone
 Now that the mockup of the pages and the skeleton of the website is complete, it is now time to focus on functionality and making things work together. The goal of this milestone is to have a working site with no broken links. Check out our [M2 project board.](https://github.com/carpool-and-go/carpool-and-go/projects/3)
 
-Starting Date, April 15th:
-![](https://cdn.discordapp.com/attachments/959715872673521695/964276099162980382/m2start.png)
+Finished Project Board:
+-- INSERT FINISHED M2 IMAGE HERE --
+
+### Finished Issues:
+* Fixed Image Proportions
+* Implement General profile page viewer for cards
+* Implemented create profile page
+* Figure out how to update location role in edit profile
+* Finish the edit profile page
+* Update homepage screenshots
+* Hide sign in / sign up buttons when logged in
+* Implement default login users with one user being an admin
+* Change driver/rider collection to show current user
+* Implement admin page
+* NavBar - remove edit profile from the navbar, change Icon
+* SignUP fix Profiles.Insert
+* Add 15 default driver data
+* Add 15 default rider data
+* Implement basic tests for website
+* Start looking into a possible Rating System
+* Finish Fast Ride Feed/Form
+
+### M3 Milestone
+Now that we have the general features of the website completed. Finish off the site by fixing minor UI bugs, implementing the sites "secret sauce", and essentially complete the project as a whole. Check out our current [M3 project board.](https://github.com/carpool-and-go/carpool-and-go/projects/4)
+
+Current Project board:
+-- INSERT HERE --
 
 ## Deployment
 The following is a link to our deployed application running on Digital Ocean:
