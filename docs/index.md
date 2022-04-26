@@ -75,7 +75,38 @@ This is similar to the digits notes form shown below:
 ![](https://user-images.githubusercontent.com/31085175/163355483-6dc26354-d852-4809-94ad-cb8f06085dee.png)
 
 ## Developer Guide
---Insert stuff here--
+
+This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
+
+### Installation
+
+First, [install Meteor](https://www.meteor.com/install).
+
+Second, visit the [Carpool and Go application github page](https://github.com/carpool-and-go/carpool-and-go), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
+
+Third, cd into the bowfolios/app directory and install libraries with:
+
+```
+$ meteor npm install
+```
+
+Fourth, run the system with:
+
+```
+$ meteor npm run start
+```
+
+If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
+
+### Application Design
+
+Carpool and Go is loosely based upon [Bowfolios](https://github.com/bowfolios) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
+
+### Data model
+
+As noted above, the Bowfolios data model consists of three "primary" collections (Projects, Profiles, and Interests), as well as three "join" Collections (ProfilesProjects, ProfilesInterests, and ProjectsInterests).  To understand this design choice, consider the situation where you want to specify the projects associated with a Profile.
+
+The Carpool and Go UH collection consists of three primary collections (Users, Locations, and Notes). There is also a "join" collection "UsersLocations" that allows the database to access a User's role and location both ways. The notes collection is currently a placeholder for the different entries into the FastRideFeed.
 
 ## Development History
 Milestones are important! This project undergoes the developmental process practices in order to create a fully functioning meteor proof-of-concept prototype. This section is dedicated to keeping track of milestone goals and how we managed to achieve them.
