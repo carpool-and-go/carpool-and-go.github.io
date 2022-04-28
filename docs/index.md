@@ -166,7 +166,7 @@ Finished Project Board:
 * Finish Fast Ride Feed/Form
 
 ### M3 Milestone
-Now that we have the general features of the website completed. Finish off the site by fixing minor UI bugs, implementing the sites "secret sauce", and essentially complete the project as a whole. Check out our current [M3 project board.](https://github.com/carpool-and-go/carpool-and-go/projects/4)
+Now that we have the general features of the website completed. Finish off the site by fixing minor UI bugs, implementing the sites "secret sauce", and essentially complete the project as a whole. Check out our current [M3 project board.](https://github.com/carpool-and-go/carpool-and-go/projects/5)
 
 Current Project board:
 ![](https://cdn.discordapp.com/attachments/959715872673521695/968619574826262558/unknown.png)
