@@ -172,5 +172,6 @@ Current Project board:
 ![](https://cdn.discordapp.com/attachments/959715872673521695/968619574826262558/unknown.png)
 
 ## Deployment
+![ci-badge](https://github.com/carpool-and-go/carpool-and-go/actions/workflows/ci.yml/badge.svg)
 The following is a link to our deployed application running on Digital Ocean:
 Click [here.](https://uh-carpool-and-go.xyz/#/)
