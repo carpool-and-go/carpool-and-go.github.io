@@ -76,6 +76,14 @@ This is similar to the digits notes form shown below:
 
 ![](https://media.discordapp.net/attachments/959715872673521695/968625604180205578/FastRideForm.PNG?width=881&height=336)
 
+### Rating System
+The rating system is an implementation that allows drivers and riders to be able to rate their fellow community members based on experiences. These ratings seek to create a positive incentive to those who ride with Aloha! The rating can be seen on one's profile, and to rate others would show up on other profiles as shown:
+
+#### Self Rating:
+![](https://cdn.discordapp.com/attachments/959715872673521695/973388057086664754/selfRating.png)
+#### Rating Others:
+![](https://cdn.discordapp.com/attachments/959715872673521695/973388066569998336/rateOthers.png)
+
 ### Admin Page
 The admin page is a page that is similar to the drivers/riders page in that it displays the profiles based on their locations (filtered by a small filter container), however each profile also has an edit profile button that allows an admin to edit their profile. Later down the line, a "delete profile" button will be added.
 ![](https://media.discordapp.net/attachments/959715872673521695/968625605149081690/AdminPage.PNG?width=881&height=335)
@@ -195,6 +203,21 @@ Finished Project board:
 * Get admin page to refresh cards when a deletion occurs.
 * Update Homepage with final UI screenshots.
 * Collect Community Feedback, 1 Student Each.
+
+## Community Feedback
+While testing the website in its final stages, we took the time to get some thoughts and opinions from other UH community members. Since this aims to serve as a service for those who attend UH Manoa, faculty and fellow UH at Manoa students were asked on what they thought.
+
+`"I really liked the visuals, and the page is very user friendly. The site seems very modern and not outdated. I would enjoy using an app like this. "`
+
+`"I actually really like this idea and design; I hate spending a lot of money on gas driving to school. I was pretty surprised at how well the website worked and turned out, I thought it would be something simpler since you said it was just an assignment or something. I could make an account and sign in and everything so that was pretty cool. I could even sort profiles by certain categories. Some of the interfaces were slightly clunky, but nothing that was a big problem for me."`
+
+`"The site looks great besides the unfinished portions. One comment would be the full implementation of the dark mode of the website and working with different fonts and stuff."`
+
+`"I find it a bit hard to imagine there will be willing drivers since there is an app like uber which is a similar concept but drivers are incentivized. It's easy to see riders willing to do this, but if people do not know who they are picking up it is difficult to see who would be willing to do this. Maybe add a feature where riders have a rate or small fee of pickup and dropoff. It would be good to add a map on google rather than a dropdown menu for the rider and driver pages. You could add a background check option for drivers and riders for security purposes."`
+
+`“So there’s this little location tab Arrive time and leave time. I feel like if you could make the tabs more user friendly that would be easy for the users. Also on the arrive time and leave time some websites have it where the user can just click on the time instead of typing it out. So if you can give an option of clicking instead of typing would be more user friendly. `
+
+These feedbacks are crucial and important to us. We have taken them into consideration and appreciate the community for giving us such gracious criticisms and praise. We aim to create a service that benefits all those involved and with more time we can continue to create something that everyone can gain from.
 
 ## Deployment
 ![ci-badge](https://github.com/carpool-and-go/carpool-and-go/actions/workflows/ci.yml/badge.svg)
