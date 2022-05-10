@@ -166,12 +166,38 @@ Finished Project Board:
 * Finish Fast Ride Feed/Form
 
 ### M3 Milestone
-Now that we have the general features of the website completed. Finish off the site by fixing minor UI bugs, implementing the sites "secret sauce", and essentially complete the project as a whole. Check out our current [M3 project board.](https://github.com/carpool-and-go/carpool-and-go/projects/5)
+After implementing the general features of the website, we finished off the site by fixing minor UI bugs and implementing the sites "secret sauce". Check out our [M3 project board.](https://github.com/carpool-and-go/carpool-and-go/projects/5)
 
-Current Project board:
-![](https://cdn.discordapp.com/attachments/959715872673521695/968619574826262558/unknown.png)
+Finished Project board:
+![](https://cdn.discordapp.com/attachments/697982688484786187/973377437557723176/M3.JPG)
+
+### Finished Issues:
+* Implement Dark Mode
+* Implement Google Maps in Landing Page
+* Insert the property "rating" as "0" when a user adds their profile
+* Fix padding in UI
+* Fix Fast Ride Feed
+* Fix Edit Page button on HomeDR
+* Have loaction preset when editing a profile.
+* Update photos on homepage to reflect final ui
+* Userview shows "edit page" button when the current user is logged in
+* Allow deletion of profiles from the admin page
+* Fix the homeDR page having a smaller navbar
+* Add real appropriate images (or data) for the final project
+* Add placeholders fro the current forms in order to allow the user to see how the form is supposed to look
+* Fix the delete function such that the user is not fully deleted and instead the user's data is reset
+* Add delete profile to the User's profile
+* Create admins when accounts signup with specific email "@carpoolngo.com"
+* Finalize Tests for the final Milestone
+* Cleanup/Optimize Code
+* Fully Implement Rating System
+* Fix bug that when the user is created they recieve an immediate low star rating
+* Get admin page to refresh cards when a deletion occurs.
+* Update Homepage with final UI screenshots.
+* Collect Community Feedback, 1 Student Each.
 
 ## Deployment
 ![ci-badge](https://github.com/carpool-and-go/carpool-and-go/actions/workflows/ci.yml/badge.svg)
+
 The following is a link to our deployed application running on Digital Ocean:
 Click [here.](https://uh-carpool-and-go.xyz/#/)
