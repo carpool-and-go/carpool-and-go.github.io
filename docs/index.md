@@ -8,6 +8,7 @@
 * [User Guide](#user-guide)
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
+* [Community Feedback](#community-feedback)
 * [Deployment](#deployment)
 
 ## Group Member Agreement
