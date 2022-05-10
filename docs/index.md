@@ -41,7 +41,7 @@ The general home page after logging in will present the user with a number of op
 ### User Profile Page
 The user profile page displays the User in question's profile as well as their role, location, profile picture, arrive and leave time, contact information, and their rating. If the profile is the current logged in user's profile, there will be an "edit my profile" link that takes them to their respective edit my profile.
 
-![](https://media.discordapp.net/attachments/959715872673521695/968625542834311189/UserProf1.PNG)
+![](https://cdn.discordapp.com/attachments/474906296819253268/973493095658319892/unknown.png)
 
 If the user does not have a profile, they will be prompted to make one using the add profile page (See below).
 
@@ -50,7 +50,7 @@ If the user does not have a profile, they will be prompted to make one using the
 ### Add/Edit profile page
 The Add/Edit profile page will be a form that contains all of the fields required of the user when they log in. It will change only the data of the current user logged in, and upon submitting, will change the users data in the user collection and the users data in the User Profile Page.
 
-![](https://media.discordapp.net/attachments/959715872673521695/968625568872562838/Edit_Prof.PNG?width=781&height=670)
+![](https://cdn.discordapp.com/attachments/474906296819253268/973492312011341824/unknown.png)
 
 If the user does not have a profile, they will have to create their profile.
 
@@ -62,20 +62,22 @@ If the user is not an admin or not a user in question, they will get a message s
 
 ### Drivers/Riders Page
 The Drivers page will show exclusively drivers whereas the riders will only show riders. The top of the page will contain a filter container that allows the user to sort by location. These collections of drivers and riders will also display if the rider or driver is a highly rated profile or a lower rated profile based on the rating property.
-
-![](https://media.discordapp.net/attachments/959715872673521695/968625603756576898/DriverPage.PNG?width=881&height=399)
+#### Drivers Page
+![](https://cdn.discordapp.com/attachments/474906296819253268/973491719003865098/unknown.png)
+#### Riders Page
+![](https://cdn.discordapp.com/attachments/474906296819253268/973492118326771752/unknown.png)
 
 ### "Fast Ride" Feed
 The "Fast Ride" feed page will be a feed that consists of all of the requested Fast rides sent by the Fast Ride Form. The feed will display the user's Profile Picture, their first and last name, and then the rest of the information gathered from the fast rides form.
 This is similar to the digits notes feed shown below:
 
-![](https://cdn.discordapp.com/attachments/251791549866835968/961703096411631616/FastRideForm.PNG)
+![](https://cdn.discordapp.com/attachments/474906296819253268/973491502095421460/unknown.png)
 
-### "Fast Ride" Form
-The "Fast Ride" form page is a form that allows a user to request a ride to a specific location at a particular time of day. It will send data to the "Fast Ride" feed.
+### "Fast Ride" Request
+The "Fast Ride" request page is a form that allows a user to request a ride to a specific location at a particular time of day. It will send data to the "Fast Ride" feed.
 This is similar to the digits notes form shown below:
 
-![](https://media.discordapp.net/attachments/959715872673521695/968625604180205578/FastRideForm.PNG?width=881&height=336)
+![](https://cdn.discordapp.com/attachments/474906296819253268/973491306733129748/unknown.png)
 
 ### Rating System
 The rating system is an implementation that allows drivers and riders to be able to rate their fellow community members based on experiences. These ratings seek to create a positive incentive to those who ride with Aloha! The rating can be seen on one's profile, and to rate others would show up on other profiles as shown:
@@ -88,6 +90,10 @@ The rating system is an implementation that allows drivers and riders to be able
 ### Admin Page
 The admin page is a page that is similar to the drivers/riders page in that it displays the profiles based on their locations (filtered by a small filter container), however each profile also has an edit profile button that allows an admin to edit their profile. Later down the line, a "delete profile" button will be added.
 ![](https://media.discordapp.net/attachments/959715872673521695/968625605149081690/AdminPage.PNG?width=881&height=335)
+
+### Night Light Mode
+Carpool and Go has implemented a darker theme colors for those night time browsing! By clicking on the circular button at the bottom right of the screen, the colors invert to make things more pleasing to the eyes:
+![](https://media.discordapp.net/attachments/474906296819253268/973483093145059388/unknown.png?width=1076&height=571)
 
 ## Developer Guide
 
