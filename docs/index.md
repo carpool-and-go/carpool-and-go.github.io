@@ -87,7 +87,7 @@ The rating system is an implementation that allows drivers and riders to be able
 
 ### Admin Page
 The admin page is a page that is similar to the drivers/riders page in that it displays the profiles based on their locations (filtered by a small filter container), however each profile also has an edit profile button that allows an admin to edit their profile. Admins can also delete profiles if they need to with the delete profile button.
-![](https://media.discordapp.net/attachments/959715872673521695/968625605149081690/AdminPage.PNG?width=881&height=335)
+![](https://cdn.discordapp.com/attachments/251791549866835968/973504507604520990/NewAdmin.JPG)
 
 ### Night Light Mode
 Carpool and Go has implemented a darker theme colors for those night time browsing! By clicking on the circular button at the bottom right of the screen, the colors invert to make things more pleasing to the eyes:
