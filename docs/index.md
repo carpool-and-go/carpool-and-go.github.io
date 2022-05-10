@@ -39,7 +39,7 @@ The general home page after logging in will present the user with a number of op
 ![](https://cdn.discordapp.com/attachments/959715872673521695/968625542494564352/Home2.PNG)
 
 ### User Profile Page
-The user profile page displays the User in question's profile as well as their role, location, profile picture, arrive and leave time, contact information, and their rating. If the profile is the current logged in user's profile, there will be an "edit my profile" link that takes them to their respective edit my profile.
+The user profile page displays the User in question's profile as well as their role, location, profile picture, arrive and leave time, contact information, and their rating. The user profile page will also show the user's current rating and how many people rated them. There is also a section where other users can submit ratings for the current user (if the user is not the one logged in). If the profile is the current logged in user's profile, there will instead be an "edit my profile" link that takes them to their respective edit my profile. Users can also delete their own profile if they would like to.
 
 ![](https://cdn.discordapp.com/attachments/474906296819253268/973493095658319892/unknown.png)
 
@@ -68,19 +68,17 @@ The Drivers page will show exclusively drivers whereas the riders will only show
 ![](https://cdn.discordapp.com/attachments/474906296819253268/973492118326771752/unknown.png)
 
 ### "Fast Ride" Feed
-The "Fast Ride" feed page will be a feed that consists of all of the requested Fast rides sent by the Fast Ride Form. The feed will display the user's Profile Picture, their first and last name, and then the rest of the information gathered from the fast rides form.
-This is similar to the digits notes feed shown below:
+The "Fast Ride" feed page will be a feed that consists of all of the requested Fast rides sent by the Fast Ride Form. The feed will display the user's Profile Picture, their first and last name, their current and desired locations, the time they need a ride, a brief description of their requested ride, and their contact information. Other users can then contact the user or click on their profile to get more information about that specific user.
 
 ![](https://cdn.discordapp.com/attachments/474906296819253268/973491502095421460/unknown.png)
 
 ### "Fast Ride" Request
-The "Fast Ride" request page is a form that allows a user to request a ride to a specific location at a particular time of day. It will send data to the "Fast Ride" feed.
-This is similar to the digits notes form shown below:
+The "Fast Ride" request page is a form that allows a user to request a ride to a specific location at a particular time of day. It allows the user to input their current and desired locations, their time of ride, and a description of why they need the ride. It will send data to the "Fast Ride" feed.
 
 ![](https://cdn.discordapp.com/attachments/474906296819253268/973491306733129748/unknown.png)
 
 ### Rating System
-The rating system is an implementation that allows drivers and riders to be able to rate their fellow community members based on experiences. These ratings seek to create a positive incentive to those who ride with Aloha! The rating can be seen on one's profile, and to rate others would show up on other profiles as shown:
+The rating system is an implementation that allows drivers and riders to be able to rate their fellow community members based on experiences. These ratings seek to create a positive incentive to those who ride with Aloha! Users are able to rate drivers and riders out of 5 stars. The rating can be seen on one's profile, and to rate others would show up on other profiles as shown:
 
 #### Self Rating:
 ![](https://cdn.discordapp.com/attachments/959715872673521695/973388057086664754/selfRating.png)
@@ -88,7 +86,7 @@ The rating system is an implementation that allows drivers and riders to be able
 ![](https://cdn.discordapp.com/attachments/959715872673521695/973388066569998336/rateOthers.png)
 
 ### Admin Page
-The admin page is a page that is similar to the drivers/riders page in that it displays the profiles based on their locations (filtered by a small filter container), however each profile also has an edit profile button that allows an admin to edit their profile. Later down the line, a "delete profile" button will be added.
+The admin page is a page that is similar to the drivers/riders page in that it displays the profiles based on their locations (filtered by a small filter container), however each profile also has an edit profile button that allows an admin to edit their profile. Admins can also delete profiles if they need to with the delete profile button.
 ![](https://media.discordapp.net/attachments/959715872673521695/968625605149081690/AdminPage.PNG?width=881&height=335)
 
 ### Night Light Mode
@@ -210,6 +208,7 @@ Finished Project board:
 * Get admin page to refresh cards when a deletion occurs.
 * Update Homepage with final UI screenshots.
 * Collect Community Feedback, 1 Student Each.
+* Bug: Logged in as admin, no account, went to admin page, edit another users account, said “add user” instead of “edit”, submission creates another account of that person, deletion destroys admin page
 
 ## Community Feedback
 While testing the website in its final stages, we took the time to get some thoughts and opinions from other UH community members. Since this aims to serve as a service for those who attend UH Manoa, faculty and fellow UH at Manoa students were asked on what they thought.
@@ -224,7 +223,9 @@ While testing the website in its final stages, we took the time to get some thou
 
 `“So there’s this little location tab Arrive time and leave time. I feel like if you could make the tabs more user friendly that would be easy for the users. Also on the arrive time and leave time some websites have it where the user can just click on the time instead of typing it out. So if you can give an option of clicking instead of typing would be more user friendly. `
 
-These feedbacks are crucial and important to us. We have taken them into consideration and appreciate the community for giving us such gracious criticisms and praise. We aim to create a service that benefits all those involved and with more time we can continue to create something that everyone can gain from.
+To summarize, these different bits of feedback mainly commented on things that we are able to develop further if we were to revisit this project. These include an incentive system for drivers, varying form fields, user interface changes, and all in all making the website more user friendly.
+
+We have taken this feedback into consideration and appreciate the community for giving us such gracious criticisms and praise. We aim to create a service that benefits all those involved and with more time we can continue to create something that everyone can gain from.
 
 ## Deployment
 ![ci-badge](https://github.com/carpool-and-go/carpool-and-go/actions/workflows/ci.yml/badge.svg)
